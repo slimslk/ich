@@ -1,0 +1,10 @@
+first_value = eval(input('Введите первое логическое значение (True или False): '))
+second_value = eval(input('Введите второе логическое значение (True или False): '))
+
+print()
+print('Результат логического И:', first_value and second_value)
+print('Результат логического ИЛИ:', first_value or second_value)
+print('Результат логического НЕ (для первого значения):', not first_value)
+print('Результат логического НЕ (для второго значения):', not second_value)
+print('Результат сравнения на равенство:', first_value is second_value)
+print('Результат сравнения на неравенство:', first_value is not second_value)
