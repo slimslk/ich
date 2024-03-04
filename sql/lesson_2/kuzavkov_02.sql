@@ -66,8 +66,7 @@ SELECT job_id,
     IF(max_salary > 10000, 'high payer',
 		IF(max_salary < 10000, 'low payer', null))
     AS payer_rank
-FROM jobs
-WHERE max_salary IS NOT null AND max_salary != 10000;
+FROM jobs;
 
 -- Task 10
 SELECT job_id,
@@ -76,5 +75,4 @@ SELECT job_id,
     AS payer_rank,
     max_salary
 FROM jobs
-WHERE max_salary IS NOT null AND max_salary != 10000
 ORDER BY max_salary DESC;
