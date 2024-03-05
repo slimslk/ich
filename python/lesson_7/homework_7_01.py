@@ -1,6 +1,6 @@
 number = int(input('Введите натуральное десятичное число: '))
 
-while number < 1:
+while number < 0:
     number = int(input('Введенное число не натуральное, введите новое число: '))
 
 result = 0
