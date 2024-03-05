@@ -1,5 +1,5 @@
 .idea/
 venv/
-linux/
+/sql/*.sql
 python/*.py
 .DS_Store
