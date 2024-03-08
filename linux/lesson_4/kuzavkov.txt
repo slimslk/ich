@@ -1,0 +1,10 @@
+Fri Mar  8 11:59:19 UTC 2024
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+   1 df -h / >> /home/kuzavkov.txt 
+   2 cat /home/kuzavkov.txt 
+   3 history | tail -n 3 >> /home/kuzavkov.txt 
+cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+11
+Modified with text editor

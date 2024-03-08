@@ -1,0 +1,9 @@
+   0 date > /home/kuzavkov.txt
+   1 df -h / >> /home/kuzavkov.txt 
+   2 cat /home/kuzavkov.txt 
+   3 history | tail -n 3 >> /home/kuzavkov.txt 
+   4 cat /etc/passwd | grep -w cron >> /home/kuzavkov.txt 
+   5 cat /etc/group |grep -w root | wc -l >> /home/kuzavkov.txt 
+   6 vi /home/kuzavkov.txt 
+   7 export_file /home/kuzavkov.txt 
+   8 history > /home/my_hist.txt && export_file /home/my_hist.txt
