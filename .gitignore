@@ -1,5 +1,7 @@
 .idea/
 venv/
-/sql/*.sql
+sql/*.sql
+sql/practice/
 python/*.py
 .DS_Store
+python/practice/
