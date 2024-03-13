@@ -1,0 +1,9 @@
+export DMYTRO_VARIABLE=19_02_24_ptm
+date > /opt/19_02_24_ptm/Kuzavkov/.process_management
+echo "Welcome to Amazone server" >> /opt/19_02_24_ptm/Kuzavkov/.process_management
+cd /opt/19_02_24_ptm/Kuzavkov/
+grep MemTotal /proc/meminfo >> .process_management
+ps -U root | wc -l >> .process_management
+env | grep -w DMYTRO_VARIABLE >> .process_management
+ps -ef | grep -v "grep" | grep -w "/usr/sbin/sshd -D" | awk '{print "PID: "$2 " | PPID: "$3}' >> .process_management
+cat .process_management
