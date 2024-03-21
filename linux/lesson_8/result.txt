@@ -1,0 +1,5 @@
+Thu Mar 21 18:35:15 UTC 2024
+hello Dmytro
+/root
+10
+-rw-r--r--

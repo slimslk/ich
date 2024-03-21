@@ -1,3 +1,4 @@
+#!/bin/bash
 USER=Dmytro
 date
 echo "hello $USER"
