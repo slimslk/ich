@@ -2,17 +2,21 @@
 -- Подключитесь к базе данных Students (которая находится на удаленном сервере).
 USE Students;
 
--- Найдите самого старшего студента
+-- Найдите самых старших студентов
 SELECT name, age
 FROM Students
-ORDER BY age DESC
-LIMIT 1;
+WHERE age = (
+    SELECT MAX(age)
+    FROM Students
+    );
 
--- Найдите самого старшего преподавателя
+-- Найдите самых старших преподавателей
 SELECT name, age
 FROM Teachers
-ORDER BY age DESC
-LIMIT 1;
+WHERE age = (
+    SELECT MAX(age)
+    FROM Teachers
+    );
 
 -- Выведите список преподавателей с количеством компетенций у каждого
 SELECT Teachers.name as teacher_name, COUNT(Teachers2Competencies.competencies_id)
