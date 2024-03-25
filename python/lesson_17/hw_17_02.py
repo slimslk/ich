@@ -6,9 +6,8 @@ calculate_sum, которая возвращает сумму всех аргу�
 
 
 def calculate_sum(*args):
-    nums = [int(num) for num in args]
-    return sum(nums)
+    return sum(args)
 
 
-numbers = input('Введите числа, разделенные пробелами: ') .split()
+numbers = list(map(int, input('Введите числа, разделенные пробелами: ').split()))
 print(f'Сумма чисел: {calculate_sum(*numbers)}')
