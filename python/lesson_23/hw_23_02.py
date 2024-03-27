@@ -15,3 +15,4 @@ count = int(input("Enter a number: "))
 fib = fibonacci_number()
 for _ in range(count):
     print(next(fib))
+fib.close()

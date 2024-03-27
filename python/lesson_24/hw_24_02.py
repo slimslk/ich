@@ -11,3 +11,4 @@ ap = arithmetic_progression(nums[0], nums[1])
 count = int(input("Enter the number of sequence elements to display: "))
 for _ in range(count):
     print(next(ap))
+ap.close()
