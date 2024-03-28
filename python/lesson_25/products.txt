@@ -1,0 +1,10 @@
+Apple,1.50,10
+Banana,0.75,15
+Kiwi,1.20,6
+Mango,1.99,20
+Lemon,0.99,15
+Pineapple,2.50,13
+Strawberry,3.00,2
+Peach,2.19,10
+Cucumber,1.69,0
+Tomato,1.89,10
