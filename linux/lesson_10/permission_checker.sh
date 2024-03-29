@@ -11,7 +11,7 @@ fi
 FILES=$(ls -p $DIR_PATH | grep -v /)
 for file in $FILES
 do
-    if [[ "$DIR_PATH/$file" == *.sh && ! -x "$DIR_PATH/$file" ]]
+    if [[ "$file" == *.sh && ! -x "$file" ]]
         then
                 chmod +x "$DIR_PATH/$file"
                 echo "Added execution rights to file: $file"
