@@ -1,0 +1,10 @@
+ 1   cd /opt/190224-ptm/Kuzavkov
+ 2   touch task_Dmytro.sh
+ 3   nano task_Dmytro.sh 
+ 4   crontab -e
+ 5   chmod +x task_Dmytro.sh
+ 6   cd hw_12/
+ 7   ls
+ 8   tar -cf hw.tar .
+ 9   ls
+ 10  history | tail -n 10 > history.txt
