@@ -6,6 +6,6 @@
 vowels = "aeiouy"
 words_list = ["Hello", "i", "am", "Jack", "Uizel"]
 
-words_start_vowels = [word for word in filter(lambda w: w[0].lower() in vowels, words_list)]
+words_start_vowels = [word for word in words_list if word[0].lower() in vowels]
 new_words_list = list(map(lambda w: w.upper(), words_start_vowels))
 print(new_words_list)

@@ -18,9 +18,9 @@ def get_files_and_sub_dirs_list(dir_path: str) -> list[str]:
 parser = ArgumentParser()
 parser.add_argument("-path", help="Path to directory")
 arg = parser.parse_args()
-dir_path = arg.path
-if not path.exists(dir_path):
-    print(f"Directory {dir_path} not found!")
+pars_path = arg.path
+if not path.exists(pars_path):
+    print(f"Directory {pars_path} not found!")
 else:
-    for item in get_files_and_sub_dirs_list(dir_path):
+    for item in get_files_and_sub_dirs_list(pars_path):
         print(f"{item}")
