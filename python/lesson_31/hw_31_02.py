@@ -4,10 +4,10 @@
 import datetime
 from logging import basicConfig, info, INFO
 
+basicConfig(filename="log.txt", filemode="a", format="%(message)s", level=INFO)
+
 
 def log_args(func):
-    basicConfig(filename="log.txt", filemode="a", format="%(message)s", level=INFO)
-
     def wrapper(*args, **kwargs):
         result = func(*args, *kwargs)
         info("Аргументы %s, Результат: %s", args, str(result))

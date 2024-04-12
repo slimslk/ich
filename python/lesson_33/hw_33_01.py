@@ -25,4 +25,3 @@ print(employee1.get_info())
 
 Employee.set_company("XYZ Company")
 print(employee2.get_info())
-
