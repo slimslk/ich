@@ -5,3 +5,4 @@ sql/practice/
 python/*.py
 .DS_Store
 python/practice/
+.env
