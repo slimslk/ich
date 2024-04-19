@@ -6,3 +6,4 @@ python/*.py
 .DS_Store
 python/practice/
 .env
+movies_dump_19042024.sql

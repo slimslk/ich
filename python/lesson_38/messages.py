@@ -1,0 +1,8 @@
+DB_CONNECTION_ERROR = "Ошибка соединения: \'{0}\'\nРабота программы завершена"
+SEARCH_FILMS = "Искать фильм"
+TABLE_DESCRIPTION = "Получить описание таблицы"
+CATEGORY = "Жанру (category)"
+PRODUCTION_YEAR = "Году выпуску (year)"
+INVALID_VALUE = "Неправильно {} '{}'. Попробуйте снова"
+ENTER_PRODUCTION_YEAR = "Введите год выпуска: "
+CHOICE_TABLE = "Для какой таблицы вы хотите увидеть описание?: "
